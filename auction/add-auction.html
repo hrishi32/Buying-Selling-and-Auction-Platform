@@ -1,0 +1,64 @@
+
+<HTML > 
+<!--
+	
+	Functonality : This page is provided to customers(sellers) to enter the details of the item to be sold.
+			 This page will take the item details like Item name, category, Description, bidding start price,
+			 reserve price, buy it now price and duration. The information provided will be saved in the database if valid.
+--> 
+  <head> 
+    <title>Add Auction</title> 
+		<link rel="stylesheet" type="text/css" href="Shoponline_Style.css">
+		<script type="text/javascript" src="add-auction.js" ></script>
+  </head> 
+  <body onload="fnLoadListing()">
+<div id="container" style="width:100%">
+<div id="space" style="width:10%;float:left;"></div>
+  <div id="header" style="width:90%;float:right;"><H1>Auctions</H1></div>
+</div>
+	<ul>
+		<li><a href="index.php">Current Auctions</a></li>
+	</ul>
+  <form method="POST" action="add-auction.php">
+	<div id="container2" style="width:100%">
+	<div id="space2" style="width:10%;float:left;"></div>
+  	<div id="fieldset" style="width:90%;float:right;">
+		<label> Add Auction </label>
+		<fieldset style="width:60%">
+ 		 <legend>Registration Details</legend>		
+		<p><span style="color:red">*</span> Required fields.</p> 
+		<table> 
+		<tr><td align="right">Item Name: <span style="color:red"> * </span></td><td><input type="text" name="item" size=100 ID="item"></td></tr>
+
+		<tr><td align="right">Category: <span style="color:red"> * </span></td><td><select id="drpCategory" name = "category" onchange="checkField(this.value)  >
+           <option value="Educational">Educational</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Stationary">Stationary</option>
+            <option value="Food">Food</option>
+            <option value="Others">Others</option>
+
+		</select> 
+
+		<tr><td align="right">Description: <span style="color:red"> * </span></td><td><input type="text" name="description" size=80 ID="txtdesc" multiline=true ></td></tr>
+
+		<tr><td align="right">Start Price: <span style="color:red"> * </span></td><td><input type="text" name="cprice" size=10 ID="txtSPDollar" value="0"></td></tr>
+
+		<tr><td align="right">Base Price: <span style="color:red"> * </span></td><td><input type="text" name="bprice" size=10 ID="bprice">
+
+		<tr><td align="right">Buy It Now Price: <span style="color:red"> * </span></td><td><input type="text" name="bnprice" size=10 ID="bnprice">
+
+		<tr><td align="right">Start Time: <span style="color:red"> * </span></td><td><input type="date" name="startd"><input type="time" name="startt"></td></tr>
+		
+		<tr><td align="right">End Time: <span style="color:red"> * </span></td><td><input type="date" name="endd"><input type="time" name="endt"></td></tr>
+
+		<tr><td align="right"><input type="submit" value="Add" onclick="return ValidateInputDetails();">   <input type="submit" value="Reset" onclick="fnReset()"/></td></tr>
+		</table>
+		<span id="displayError" style="color:red"></span>
+		<span id="confirmation" style="color:black"></span>
+		</fieldset>  
+</div>
+</div>
+</form>
+
+</body>
+</HTML>

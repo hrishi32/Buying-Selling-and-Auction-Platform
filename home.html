@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<title>BSLS</title>
+			<link type="text/css" href="main.css" rel="stylesheet">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		</head>
+		
+		<body>
+			<button onclick="login();" id="show_login">Log In</button>
+			<div id="login_form">
+				<div id="close">&#10005;</div>
+				<form id="myform" method="post" action="dologin.php">
+					<table>
+						<tbody>
+							<tr><input type="text" name="username" placeholder="username" class="login_form_inputs" required></tr><br>
+							<tr><input type="password" name="given_password" placeholder="********" class="login_form_inputs" required></tr><br>
+							<tr><input type="submit" value= "Log In" class="login_form_inputs" required></tr>
+						</tbody>
+					</table>
+					
+				</form>
+				
+				<p id="to_register">New User ? <a class="bottom_link" href="registration.php">Register Here</a></p>
+			</div>
+			
+		<script type="text/javascript">	
+			$(document).ready(function()
+			{
+			  	$('#show_login').click(function(){
+						showpopup();
+					});
+		  		$('#close').click(function(){
+				  	hidepopup();
+					});	
+			 });
+			
+			
+			function showpopup()
+			{
+			  $('#login_form').fadeIn();
+			  $('#login-form').style.display = "block";
+			}
+			
+			function hidepopup()
+			{
+				$('#login_form').fadeOut();
+				$('#login_form').style.display = "none";
+			}
+			</script>
+		</body>
+		
+</html>

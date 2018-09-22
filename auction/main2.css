@@ -1,0 +1,408 @@
+body{
+	background-color: #eee;
+  margin: 0px;
+}
+
+
+#login_slider{
+    display:none;
+    z-index: 1;
+    width: 14%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    right: 2%;
+    top: 12%;
+    border-radius: 4px;
+    color: white;
+    padding: 15px;;
+}
+
+#login_slider a{
+    color: white;
+    text-decoration: none;
+}
+
+/*#login_button{
+    position: relative;
+    left: 20%;
+    top: 20%;
+    width: 50%;
+    background-color: red;
+}
+*/
+#login_slider a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#login_button{
+    width: 
+}
+
+
+#login_form{
+     display: none;
+     padding-left: 60px;
+     padding-right: 60px;
+     padding-bottom: 40px;
+     padding-top: 40px;
+     background-image: url("https://media.istockphoto.com/photos/puple-and-white-soft-lights-abstract-background-soft-colors-picture-id513704347?k=6&m=513704347&s=612x612&w=0&h=8QZlbLbPjaB2cD6ad4jJnix9Iv0UoY-1MJVnk4E_gAo=");
+    /* background-color: #eee;*/
+    /*   width: 100px;
+     height: 100px;*/
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    border-radius: 6px;
+
+
+}
+
+#myform{
+     padding: 40px;
+     background-image: url("balckbackpopup.jpg");
+     border-radius: 6px;
+}
+
+#myform input{
+     margin-bottom: 20px;
+     height:40px;
+     width: 250px;
+     border-radius: 4px;
+    
+}
+
+#close{
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     font-size: 30px;
+     padding: 0px;
+     margin:0px;
+}
+#login_form a , #relogin_form a {
+    color:white; 
+    text-decoration:none;
+}
+
+#login_form   a:hover , #relogin_form a:hover{
+    text-decoration: underline;
+    color: deeppink;
+}
+
+#relogin_form{
+     padding-left: 60px;
+     padding-right: 60px;
+     padding-bottom: 40px;
+     padding-top: 40px;
+     background-image: url("https://media.istockphoto.com/photos/puple-and-white-soft-lights-abstract-background-soft-colors-picture-id513704347?k=6&m=513704347&s=612x612&w=0&h=8QZlbLbPjaB2cD6ad4jJnix9Iv0UoY-1MJVnk4E_gAo=");
+    /* background-color: #eee;*/
+    /*   width: 100px;
+     height: 100px;*/
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    border-radius: 6px;
+
+}
+
+#top_div{
+    background-color:#D90A33;/*#E0220C;/*#E4083E;*#F31468;*/
+    
+
+}
+
+#top_div h1{
+    color:white;
+    font-family: monospace;
+    font-weight: bolder;
+    padding: 10px;
+}
+#logo_name{
+    padding-left:5%;
+    padding-right: 7%;
+}
+    
+
+
+#top_div_in_header{
+     position: relative;
+     width:80%;
+     background-color:;
+}
+
+#search_box{
+    width:53%;
+    height: 40px;
+    margin-right: 0px;
+}
+
+#search_button{
+    width:10%; 
+    margin-left:0px; 
+    height:40px;
+    margin-left: 0px;
+    position: relative;
+    left: -4.57px;
+}
+
+#search_bar{
+    
+}
+
+#login_signup{
+    position: absolute;
+    left: 70%;
+    height: 100%;
+    
+}
+
+#cart_button{
+}
+
+#sign_in:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.signin{
+    font-size: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px; ;
+    color: white;
+    
+
+}
+#navbar{
+    width: 70%;
+}
+
+#top_div ul{
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+#top_div ul li {
+    display: inline-block;
+     position: relative;
+     left:30%;
+}
+
+.nav_divs a {
+     padding-left:20px;
+     padding-right: 20px;
+     color: white;
+     font-size: 19px;
+     text-decoration: none;
+}
+
+.nav_divs{
+    padding-bottom: 10px;
+    border-radius: 4px;
+    padding-top: 10px;
+
+}
+
+.nav_divs a:hover{
+    text-decoration: underline;
+    
+}
+
+
+#category_container{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 1%;
+    top: 22.5%;
+    padding-top: 10px;
+    padding-left: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+
+}
+
+#category_container ul{
+     list-style-type: none;
+    padding-left: 0px;
+}
+#category_container a{
+    text-decoration: none;
+    color: black;
+    font-family: ;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cat_divs{
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cat_divs:hover{
+    background-color: #eee;
+    border-left: solid #D90A33 5px;
+    border-top: solid #ccc 1px;
+    border-bottom: solid #ccc 1px;
+
+}
+
+#slideshow_image{
+    width: 50%;
+    height: 50%;
+    padding: 0px;
+    position: absolute;
+    left: 20%;
+    top: 22.5%;
+    background-color: white;
+}
+
+
+#container_feed_items{
+    position: absolute;
+    background-color: white;
+    top: 90%;
+    left: 9%;
+    width: 90%;
+}
+
+.item_divs_for_feed{
+    position: relative;
+    display:inline-block;
+    width: 25%;
+    height: 400px;
+    padding:0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.item_divs_for_feed:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    height: 420px;
+    
+}
+
+.liked_divs_feed{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+} 
+
+.images_of_item{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 50%;
+    height: 40%;
+    border: solid black 1px;
+}
+
+.title_paras{
+     position: absolute;
+     top: 60%;
+     left: 15%;
+}
+
+.price_of_divs{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+/*#slideshow_description{
+    width: 50%;
+    height: 20%;
+    background-color: red;
+    position: rel;
+    bottom: 0px;
+    z-index: 1
+}
+top_div{
+    width: 100%;
+*  background-color:red;*
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+/*#login_form{
+	display: none;
+	position:absolute;
+	width: 30%;
+	top: 25%;
+	left: 30%;
+	background-image: url("popupback.jpg");
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 15px;
+
+}
+
+#myform{
+    background-image: url("balckbackpopup.jpg");
+    margin:0px;
+}
+
+#relogin{
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	background-color: white;
+	width: 30%;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+#error_login{
+	 position: relative;
+	 left: 480px;
+	 top: 130px;
+}
+
+#close{
+	padding: 5px;
+	display: inline;
+	position: relative;
+	left: 94.5%;
+	cursor: pointer;
+}
+
+#close:hover{
+	background-color: red;
+	color: white;
+}
+
+.login_form_inputs{
+	 margin-bottom: 25px;
+	 width: 200px;
+}
+
+#myform{
+	padding-left:70px;
+	margin-top: 30px;
+}
+
+#to_register{
+	 position: relative;
+	 left: 70px;
+	 padding: 0px;
+	 margin: 0px;
+}
+
+.bottom_link{
+	  text-decoration: none;
+	  color: blue;
+}
+
+.bottom_link:hover{
+	 color: green;
+	 text-decoration: underline;
+}
+
+
+
